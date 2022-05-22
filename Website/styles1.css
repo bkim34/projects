@@ -1,0 +1,43 @@
+body {
+    font-family: 'Cardo', serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    overflow: scroll;
+}
+html {
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: '', sans-serif;
+    
+    margin: 5px;
+    text-align: center;}
+h1{
+    font-family: "Verdana";
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 600%;
+    color:dodgerblue;
+    
+   
+}
+h2{
+    font-family: "Verdana";
+    text-align: left;
+    color:dodgerblue;
+}
+#email{
+     font-family: "Verdana";
+    text-align: left;
+}
