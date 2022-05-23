@@ -24,8 +24,7 @@ h6 {
 h1{
     font-family: "Verdana";
     display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 5px;
     text-align: center;
     font-size: 600%;
     color:dodgerblue;
@@ -37,7 +36,38 @@ h2{
     text-align: left;
     color:dodgerblue;
 }
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+}
+li {
+    margin: 0;
+    padding: 0;
+    float: right;
+
+    width: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 33px;
+    text-align: center;
+}
+
 #email{
      font-family: "Verdana";
     text-align: left;
+}
+
+#abme {
+    color: white;
+    text-align: left;
+    background:black
+    width: 100vw;
+    
+}
+#abmepara {
+    color: white;
+    background:black
+    
 }
